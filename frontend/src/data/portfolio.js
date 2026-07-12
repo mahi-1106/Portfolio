@@ -187,7 +187,7 @@ export const SKILLS = [
 export const ACHIEVEMENTS = [
     {
         title: "First Runner-up — Hack-A-Stat 2025",
-        meta: "National Statistics Hackathon",
+        meta: "Nilkamal School of Mathematics, Applied Statistics & Analytics",
         icon: "trophy",
     },
     {
