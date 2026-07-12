@@ -4,12 +4,12 @@ export const PROFILE = {
     tagline: "From Numbers to Narratives",
     intro: "I am a Data Science postgraduate specializing in Machine Learning, Generative AI, Forecasting, and Advanced Analytics. I enjoy building end-to-end AI solutions that transform complex data into actionable business insights.",
     about: [
-        "I am currently pursuing an MSc in Data Science at NMIMS, Mumbai, with a strong academic background in Computational Mathematics and Statistics. My passion lies at the intersection of AI, machine learning, and business analytics.",
+        "I recently completed my Master's in Data Science at NMIMS, Mumbai, with a strong academic background in Computational Mathematics and Statistics. My passion lies at the intersection of AI, machine learning, and business analytics.",
         "I have built forecasting systems, generative AI applications, and cloud-based machine learning pipelines that solve real-world business problems.",
         "I believe in turning data into stories and insights into decisions.",
     ],
     headshot: "/mahi-headshot.jpg",
-    resumeUrl: "https://drive.google.com/file/d/1uAjCVqHKb0s1bJASgUgdTlnhtF4bxGkr/view?usp=sharing",
+    resumeUrl: "https://drive.google.com/drive/folders/11SvYKydoZ1h-G5arTvzqmN9gcv1DbJ9t?usp=sharing",
     socials: {
         linkedin: "https://www.linkedin.com/in/mahisoni",
         github: "https://github.com/mahi-1106",
