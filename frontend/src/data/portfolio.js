@@ -84,6 +84,7 @@ export const PROJECTS = [
         image: "https://images.pexels.com/photos/17485706/pexels-photo-17485706.png",
         category: "GenAI",
         accent: "Featured",
+        github: "https://github.com/mahi-1106/PharmaCortex-AI-Powered-Cognitive-Analytics-Platform",
     },
     {
         id: "aws-mlops",
@@ -99,6 +100,7 @@ export const PROJECTS = [
         ],
         image: "https://images.pexels.com/photos/7567223/pexels-photo-7567223.jpeg",
         category: "MLOps",
+        github: "https://github.com/mahi-1106/AI-POWERED-FINANCIAL-RISK-PREDICTION-SYSTEM-AWS-MLOps",
     },
     {
         id: "inter-stock",
@@ -114,6 +116,7 @@ export const PROJECTS = [
         ],
         image: "https://images.pexels.com/photos/6203470/pexels-photo-6203470.jpeg",
         category: "Analytics",
+        github: "https://github.com/mahi-1106/Structural-Analysis-of-Inter-Stock-Dynamics-in-the-Indian-IT-Sector",
     },
     {
         id: "employee-enigma",
@@ -138,6 +141,7 @@ export const PROJECTS = [
         ],
         image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
         category: "ML",
+        github: "https://github.com/mahi-1106/The-Employee-Enigma-Decoding-Attribution-with-Clustering",
     },
     {
         id: "airplane-crash",
@@ -154,6 +158,7 @@ export const PROJECTS = [
         ],
         image: "https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg",
         category: "Analytics",
+        github: "https://github.com/mahi-1106/Airplane-Crash-Analysis",
     },
 ];
 
