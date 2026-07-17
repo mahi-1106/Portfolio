@@ -88,28 +88,32 @@ export const Projects = () => {
                             </div>
 
                             <div className="p-6 md:p-8 space-y-4">
-                                <div className="flex items-start justify-between gap-4">
-                                    <div>
-                                        <div className="font-mono text-[10px] uppercase tracking-widest text-brown dark:text-beige">
-                                            {p.subtitle}
-                                        </div>
-                                        <h3 className="font-display text-2xl md:text-3xl font-bold tracking-tight mt-1">
-                                            {p.title}
-                                        </h3>
+                            <div className="flex items-start justify-between gap-4">
+                                <div>
+                                    <div className="font-mono text-[10px] uppercase tracking-widest text-brown dark:text-beige">
+                                        {p.subtitle}
                                     </div>
-                                    {p.github && (
-                                            <a
-                                                href={p.github}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="flex-shrink-0"
-                                                aria-label={`View ${p.title} on GitHub`}
-                                            >
-                                    <ArrowUpRight
-                                        size={22}
-                                        className="text-brown dark:text-beige group-hover:rotate-45 transition-transform duration-300 flex-shrink-0"
-                                    />
+                            
+                                    <h3 className="font-display text-2xl md:text-3xl font-bold tracking-tight mt-1">
+                                        {p.title}
+                                    </h3>
                                 </div>
+                            
+                                {p.github && (
+                                    <a
+                                        href={p.github}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex-shrink-0"
+                                        aria-label={`View ${p.title} on GitHub`}
+                                    >
+                                        <ArrowUpRight
+                                            size={22}
+                                            className="text-brown dark:text-beige group-hover:rotate-45 transition-transform duration-300"
+                                        />
+                                    </a>
+                                )}
+                            </div>
 
                                 <p className="text-sm md:text-base leading-relaxed text-brown dark:text-beige/90">
                                     {p.description}
