@@ -97,6 +97,14 @@ export const Projects = () => {
                                             {p.title}
                                         </h3>
                                     </div>
+                                    {p.github && (
+                                            <a
+                                                href={p.github}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="flex-shrink-0"
+                                                aria-label={`View ${p.title} on GitHub`}
+                                            >
                                     <ArrowUpRight
                                         size={22}
                                         className="text-brown dark:text-beige group-hover:rotate-45 transition-transform duration-300 flex-shrink-0"
