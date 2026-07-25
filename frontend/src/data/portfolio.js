@@ -9,7 +9,7 @@ export const PROFILE = {
         "I believe in turning data into stories and insights into decisions.",
     ],
     headshot: "/mahi-headshot.jpg",
-    resumeUrl: "https://drive.google.com/file/d/1qFUyCD0mKQ30jzFhqmoWlwelPETKZL2p/view?usp=sharing",
+    resumeUrl: "https://drive.google.com/file/d/1vrfrW85I9oyT1oLxNSX4dlWzWz_18qL0/view?usp=sharing",
     socials: {
         linkedin: "https://www.linkedin.com/in/mahisoni",
         github: "https://github.com/mahi-1106",
